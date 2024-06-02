@@ -10,12 +10,17 @@ a foundation for future research on the mismatching problem in EMS.
 
 This repository contains the followings files:
 
-CSV and numpy files:
+CSV files:
 
--A
--B
--C
+- consumption.csv (consumption profiles Fluvius)
+- weather.csv (to construct production profiles Fluvius)
+- robbe.csv (prodcution and consumption from Robbe)
+- prices will be fetched with the Entsoe API
+- logs from param testing (96 combinations)
 
 Notebooks:
+- plotting EDA databases
+- Robbe numerical example
+- Parameter testing combinations
 
 For addtional questions please contact me through following email address: clement.vangoethem@student.kuleuven.be
